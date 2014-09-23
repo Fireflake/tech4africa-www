@@ -1,0 +1,1 @@
+This is just a showcase repo for my Tech4Africa talk. This contains almost vanilla Magento.

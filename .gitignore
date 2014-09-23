@@ -1,3 +1,15 @@
+# local config
 app/etc/local.xml
-var/
+errors/local.xml
+
+# logs etc
+/var/*
+
+# media files
+/media/*
+
+# keep some files
 !var/.htaccess
+!/media/.htaccess
+!/media/customer/.htaccess
+!/media/downloadable/.htaccess
