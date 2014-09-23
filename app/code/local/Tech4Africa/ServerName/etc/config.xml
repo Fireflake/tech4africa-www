@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tech4Africa_ServerName>
+            <version>0.1.0</version>
+        </Tech4Africa_ServerName>
+    </modules>
+    <global>
+        <models>
+            <tech4africa_servername>
+                <class>Tech4Africa_ServerName_Model</class>
+                <resourceModel>tech4africa_servername_resource</resourceModel>
+            </tech4africa_servername>
+            <tech4africa_servername_resource>
+                <class>Tech4Africa_ServerName_Model_Resource</class>
+            </tech4africa_servername_resource>
+        </models>
+        <blocks>
+            <tech4africa_servername>
+                <class>Tech4Africa_ServerName_Block</class>
+            </tech4africa_servername>
+            <page>
+                <rewrite>
+                    <html_welcome>Tech4Africa_ServerName_Block_Page_Html_Welcome</html_welcome>
+                </rewrite>
+            </page>
+        </blocks>
+        <helpers>
+            <tech4africa_servername>
+                <class>Tech4Africa_ServerName_Helper</class>
+            </tech4africa_servername>
+        </helpers>
+    </global>
+</config>

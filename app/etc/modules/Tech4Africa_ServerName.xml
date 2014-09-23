@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tech4Africa_ServerName>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Page/>
+
+            </depends>
+        </Tech4Africa_ServerName>
+    </modules>
+</config>
