@@ -17,7 +17,7 @@ class Tech4Africa_ServerName_Block_Page_Html_Welcome extends Mage_Page_Block_Htm
             if (Mage::isInstalled() && Mage::getSingleton('customer/session')->isLoggedIn()) {
                 $this->_data['welcome'] = $this->__('Welcome, %s!', $this->escapeHtml(Mage::getSingleton('customer/session')->getCustomer()->getName()));
             } else {
-                $this->_data['welcome'] = "This page was generated on: " . $_SERVER["SERVER_NAME"];
+                $this->_data['welcome'] = "This page was generated on: " . gethostname();
             }
         }
 
